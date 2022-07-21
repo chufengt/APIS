@@ -1,5 +1,10 @@
 # Active Pointly-Supervised Instance Segmentation (APIS)
+
 Code for the paper "Active Pointly-Supervised Instance Segmentation", ECCV 2022.
+
+[[Paper]](https://arxiv.org/xxx)
+
+Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
 ## Preparation
 
@@ -34,7 +39,7 @@ sh APIS/scripts/prepare.sh
 
 ## Usage
 
-We provide the **one-click scripts** to reproduce the main results in the paper, including the results of the `Random Sampling` and `Entropy` strategies mentioned in Tables 1,2,3,6 and Figures 2,3,4.
+We provide the **one-click scripts** to reproduce the main results in the paper, including the results of the `Random Sampling` and `Entropy` strategies mentioned in the paper.
 
 #### 1. model initialization (P0)
 
@@ -52,4 +57,18 @@ python APIS/scripts/random.py
 
 ```bash
 python APIS/scripts/entropy.py
+```
+
+
+## Reference
+
+If this work is useful to your research, please cite:
+
+```
+@inproceedings{tang2022APIS,
+  title={Active Pointly-Supervised Instance Segmentation},
+  author={Tang, Chufeng and Xie, Lingxi and Zhang, Gang and Zhang, Xiaopeng and Tian, Qi and Hu, Xiaolin},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2022}
+}
 ```
