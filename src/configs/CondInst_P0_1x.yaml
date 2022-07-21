@@ -1,0 +1,9 @@
+_BASE_: "../MS_R_50_1x.yaml"
+
+MODEL:
+  BOXINST:
+    POINT_LOSS_WEIGHT: 0.1
+DATASETS:
+  TRAIN: ("coco_2017_train_points_n1",)
+INPUT:
+  POINT_SUP: True

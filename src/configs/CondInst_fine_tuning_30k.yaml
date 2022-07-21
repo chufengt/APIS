@@ -1,0 +1,15 @@
+_BASE_: "../MS_R_50_1x.yaml"
+
+MODEL:
+  WEIGHTS: ""
+  BOXINST:
+    POINT_LOSS_WEIGHT: 0.1
+DATASETS:
+  TRAIN: ("coco_2017_train_points_n1",)
+INPUT:
+  POINT_SUP: True
+SOLVER:
+  IMS_PER_BATCH: 16
+  BASE_LR: 0.01
+  STEPS: (10000, 20000)
+  MAX_ITER: 30000

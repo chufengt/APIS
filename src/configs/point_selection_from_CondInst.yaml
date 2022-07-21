@@ -1,0 +1,16 @@
+_BASE_: "../MS_R_50_1x.yaml"
+
+MODEL:
+  WEIGHTS: ""
+SOLVER:
+  IMS_PER_BATCH: 8
+  BASE_LR: 0.0 # stop updating the model
+  MAX_ITER: 14800 # 14800*8 ≈ len(train2017)
+INPUT:
+  MIN_SIZE_TRAIN: (800,)
+  RANDOM_FLIP: none
+  HFLIP_TRAIN: False
+
+# Currently, the point selection process is implemented by 
+# forwarding the model separately after training, while this  
+# process can be accelerated by selecting during the last epoch.
