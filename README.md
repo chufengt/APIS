@@ -6,6 +6,8 @@ Code for the paper "Active Pointly-Supervised Instance Segmentation", ECCV 2022.
 
 Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
+NOTE: This release is currently a preliminary version for APIS, where only the newly added or modified source files are included for simplicity. The provided scripts could help you understand how APIS works. We will release the complete version as well as the checkpoints in the near future.
+
 ## Preparation
 
 This project is based on the open-source toolbox [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) (as well as [Detectron2](https://github.com/facebookresearch/detectron2)).
@@ -28,9 +30,9 @@ ROOT_PATH
 │   ├── src
 ```
 
-Note that only the newly added source files are included in `APIS/src`.
+Note that only the newly added or modified source files are included in `APIS/src`.
 
-Modify `$ROOT_PATH`  in `APIS/scripts/prepare.sh` and run:
+Set `$ROOT_PATH`  in `APIS/scripts/prepare.sh` and run:
 
 ```bash
 # copy source files and prepare random point annotations
