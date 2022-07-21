@@ -1,8 +1,9 @@
-# Code for APIS
+# Active Pointly-Supervised Instance Segmentation (APIS)
+Code for the paper "Active Pointly-Supervised Instance Segmentation", ECCV 2022.
 
 ## Preparation
 
-This project is based on the open-source toolbox [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) (as well as [Detectron2](https://github.com/facebookresearch/detectron2)). 
+This project is based on the open-source toolbox [AdelaiDet](https://github.com/aim-uofa/AdelaiDet) (as well as [Detectron2](https://github.com/facebookresearch/detectron2)).
 
 Please refer to [INSTALL.md](https://github.com/aim-uofa/AdelaiDet/blob/master/README.md) for installation and dataset (MS-COCO) preparation.
 
