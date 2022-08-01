@@ -1,8 +1,6 @@
 # Active Pointly-Supervised Instance Segmentation (APIS)
 
-Code for the paper "Active Pointly-Supervised Instance Segmentation", ECCV 2022.
-
-[[Paper]](https://arxiv.org/coming_soon)
+Code for the paper "Active Pointly-Supervised Instance Segmentation", ECCV 2022. [[arXiv]](https://arxiv.org/abs/2207.11493)
 
 Contact: chufeng.t@foxmail.com or tcf18@mails.tsinghua.edu.cn
 
